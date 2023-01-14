@@ -1,0 +1,68 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #3c3c3c;
+    background-color: #f7f7f7;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 1rem;
+  }
+  
+  header nav ul li a {
+    color: #3c3c3c;
+    text-decoration: none;
+  }
+  
+  /* Main Styles */
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  section p {
+    line-height: 1.5;
+    font-size: 1.2rem;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+  }
+  
